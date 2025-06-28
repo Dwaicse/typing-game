@@ -2,6 +2,9 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.5.
 
+##Currently Deployed Using Firebase
+URL: https://typinggame-1.web.app/
+
 ## Development server
 
 To start a local development server, run:
