@@ -10,5 +10,27 @@
 <body>
   <app-root></app-root>
 </body>
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
 
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyAIm-UA9iNrmX9LCy9t7de0SyuvrFQCE9I",
+    authDomain: "typinggame-1.firebaseapp.com",
+    projectId: "typinggame-1",
+    storageBucket: "typinggame-1.firebasestorage.app",
+    messagingSenderId: "1017179079038",
+    appId: "1:1017179079038:web:5280385521ac34f387b32f",
+    measurementId: "G-FW8P72SQRN"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
 </html>
